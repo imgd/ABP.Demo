@@ -1,2 +1,25 @@
-# ABP.Demo
-ABP基本框架
+﻿# abp.demo
+这是一个采用abp框架部署的多数据项目<br/>
+这里部署的是精简版本，抛弃了授权，用户，权限集成模块，保留了审计日志<br/>
+这是一个初始版本，后续会继续更新和完善，有问题 微博：[@大白2013](http://weibo.com/u/2239977692)  <br/>
+ABP的官方网站：http://www.aspnetboilerplate.com<br/>
+ABP在Github上的开源项目：https://github.com/aspnetboilerplate<br/>
+如果对您有帮助，请不要忘记点个赞哦 <br/>
+
+abp目前实现的功能有：<br/>
+服务器端：<br/>
+1.ASP.NET MVC 5、.Web API 2、C# 5.0<br/>
+2.DDD领域驱动设计 （Entities、Repositories、Domain Services、Domain Events、Application Services、DTOs等）<br/>
+3.Castle windsor （依赖注入容器）<br/>
+4.Entity Framework 6 \ NHibernate，code first数据迁移<br/>
+5.Log4Net（日志记录）<br/>
+6.AutoMapper（实现Dto类与实体类的双向自动转换）<br/>
+
+客户端：<br/>
+2.Bootstrap <br/>
+3.Less<br/>
+4.AngularJs<br/>
+5.jQuery<br/>
+6.Modernizr
+7.其他JS库: jQuery.validate、jQuery.form、jQuery.blockUI、json2
+
