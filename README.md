@@ -8,18 +8,18 @@ ABP在Github上的开源项目：https://github.com/aspnetboilerplate<br/>
 
 abp目前实现的功能有：<br/>
 服务器端：<br/>
-1.ASP.NET MVC 5、.Web API 2、C# 5.0<br/>
-2.DDD领域驱动设计 （Entities、Repositories、Domain Services、Domain Events、Application Services、DTOs等）<br/>
-3.Castle windsor （依赖注入容器）<br/>
-4.Entity Framework 6 \ NHibernate，code first数据迁移<br/>
-5.Log4Net（日志记录）<br/>
-6.AutoMapper（实现Dto类与实体类的双向自动转换）<br/>
+* ASP.NET MVC 5、.Web API 2、C# 5.0<br/>
+* DDD领域驱动设计 （Entities、Repositories、Domain Services、Domain Events、Application Services、DTOs等）<br/>
+* Castle windsor （依赖注入容器）<br/>
+* Entity Framework 6 \ NHibernate，code first数据迁移<br/>
+* Log4Net（日志记录）<br/>
+* AutoMapper（实现Dto类与实体类的双向自动转换）<br/>
 
 客户端：<br/>
-2.Bootstrap <br/>
-3.Less<br/>
-4.AngularJs<br/>
-5.jQuery<br/>
-6.Modernizr
-7.其他JS库: jQuery.validate、jQuery.form、jQuery.blockUI、json2
+* Bootstrap <br/>
+* Less<br/>
+* AngularJs<br/>
+* jQuery<br/>
+* Modernizr
+* 其他JS库: jQuery.validate、jQuery.form、jQuery.blockUI、json2
 
