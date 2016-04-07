@@ -1,0 +1,21 @@
+﻿@{
+    var p = ViewBag.d1 as List<string>;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    peops:
+    <div>
+        @foreach (var item in p)
+        {
+            @item <br />
+        }
+    </div>
+</body>
+</html>

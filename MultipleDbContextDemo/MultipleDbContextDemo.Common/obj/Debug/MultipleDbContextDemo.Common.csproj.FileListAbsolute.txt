@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\abp\abp.demo源码\aspnetboilerplate-samples-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\obj\Debug\MultipleDbContextDemo.Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\abp\abp.demo源码\aspnetboilerplate-samples-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\bin\Debug\MultipleDbContextDemo.Common.dll
+C:\Users\Administrator\Desktop\abp\abp.demo源码\aspnetboilerplate-samples-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\bin\Debug\MultipleDbContextDemo.Common.pdb
+C:\Users\Administrator\Desktop\abp\abp.demo源码\aspnetboilerplate-samples-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\obj\Debug\MultipleDbContextDemo.Common.dll
+C:\Users\Administrator\Desktop\abp\abp.demo源码\aspnetboilerplate-samples-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\obj\Debug\MultipleDbContextDemo.Common.pdb

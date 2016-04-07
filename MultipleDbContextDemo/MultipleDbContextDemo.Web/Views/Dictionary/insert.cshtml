@@ -1,0 +1,283 @@
+﻿@{
+    var databases = ViewBag.database as List<Demo.Application.DictionaryTypeOutput>;
+    //var tables = ViewBag.tables as List<Demo.Application.DictionaryTypeOutput>;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="lib/html5.js"></script>
+    <script type="text/javascript" src="lib/respond.min.js"></script>
+    <script type="text/javascript" src="lib/PIE_IE678.js"></script>
+    <![endif]-->
+    <link href="~/BaseMb/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/BaseMb/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+    <link href="~/BaseMb/lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+    <link href="~/BaseMb/lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+    <link href="~/BaseMb/lib/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>新增图片</title>
+</head>
+<body>
+    <div class="pd-20">
+        <form action="" method="post" class="form form-horizontal" id="form-article-add">
+            <div class="row cl">
+                <label class="form-label col-3"><span class="c-red">*</span>数据库名称：</label>
+                <div class="formControls col-5">
+                    <span class="select-box">
+                        <select name="" id="sec_database" class="select">
+                            <option value="全部">全部</option>
+                            @foreach (var item in databases)
+                            {
+                                <option value="@item.DataBaseName">@item.DataBaseName</option>
+                            }
+                        </select>
+                    </span>
+                </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-3"><span class="c-red">*</span>表名：</label>
+                <div class="formControls col-5">
+                    <span class="select-box">
+                        <select name="" id="sec_tables" class="select">
+                            <option value="全部">全部</option>
+                        </select>
+                    </span>
+                </div>
+            </div>
+
+            <div class="row cl">
+                <label class="form-label col-3"><span class="c-red">*</span>字段名：</label>
+                <div class="formControls col-5">
+                    <input type="text" name="" id="txt_clonmname" placeholder="" value="" class="input-text">
+                </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-3">字段说明：</label>
+                <div class="formControls col-5">
+                    <input type="text" name="" id="txt_clonmremark" placeholder="" value="" class="input-text">
+                </div>
+            </div>
+
+            <div class="row cl">
+                <label class="form-label col-3">是否标识列：</label>
+                <div class="formControls col-5 skin-minimal">
+                    <div class="check-box" style="padding-left: 0px;">
+                        <input type="checkbox" id="checkbox-1">
+                        <label for="checkbox-1">&nbsp;</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-3">是否主键：</label>
+                <div class="formControls col-5 skin-minimal">
+                    <div class="check-box" style="padding-left: 0px;">
+                        <input type="checkbox" id="checkbox-2">
+                        <label for="checkbox-1">&nbsp;</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-3">是否允许空：</label>
+                <div class="formControls col-5 skin-minimal">
+                    <div class="check-box" style="padding-left: 0px;">
+                        <input type="checkbox" id="checkbox-3">
+                        <label for="checkbox-1">&nbsp;</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-3"><span class="c-red">*</span>字段类型：</label>
+                <div class="formControls col-5">
+                    <span class="select-box">
+                        <select name="" id="sec_coumtype" class="select">
+                            <option value="bit">bit</option>
+                            <option value="tinyint">tinyint</option>
+                            <option value="smallint">smallint</option>
+                            <option value="int">int</option>
+                            <option value="bigint">bigint</option>
+                            <option value="float">float</option>
+                            <option value="double">double</option>
+                            <option value="decimal">decimal</option>
+                            <option value="money">money</option>
+                            <option value="char">char</option>
+                            <option value="nchar">nchar</option>
+                            <option value="varchar">varchar</option>
+                            <option value="nvarchar">nvarchar</option>
+                            <option value="datetime">datetime</option>
+                            <option value="smalldatetime">smalldatetime</option>
+                            <option value="text">text</option>
+                            <option value="image">image</option>
+                        </select>
+                    </span>
+                </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-3"><span class="c-red">*</span>占用字节：</label>
+                <div class="formControls col-5">
+                    <input type="text" name="" id="txt_bytecounts" placeholder="" value="" class="input-text">
+                </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-3"><span class="c-red">*</span>字段排序：</label>
+                <div class="formControls col-5">
+                    <input type="text" name="" id="txt_sort" placeholder="" value="" class="input-text">
+                </div>
+            </div>
+            <div class="row cl">
+                <label class="form-label col-3">默认值：</label>
+                <div class="formControls col-5">
+                    <input type="text" name="" id="txt_defaultvalue" placeholder="" value="" class="input-text">
+                </div>
+            </div>
+
+
+            <div class="row cl">
+                <div class="col-10 col-offset-2">
+                    <button id="btn_save" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 保存并提交审核</button>
+                    <button onclick="parent.layer.close(parent.layer.getFrameIndex(window.name));" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="~/BaseMb/lib/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="~/BaseMb/lib/layer/1.9.3/layer.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            $('#btn_save').bind('click', function () {
+
+                //layer.msg("操作成功。", { icon: 6 });
+
+                var index = parent.layer.getFrameIndex(window.name);
+                parent.layer.close(index);
+                //window.parent.location.reload();
+
+                @*var dbname = $('#sec_database').val(),
+                    tbname = $('#sec_tables').val(),
+                    cloumname = $.trim($('#txt_clonmname').val()),
+                    cloumremark = $.trim($('#txt_clonmremark').val()),
+                    isidentity = $('#checkbox-1').is(':checked'),
+                    isprimarykey = $('#checkbox-2').is(':checked'),
+                    isnuable = $('#checkbox-3').is(':checked'),
+                    cloumtype = $('#sec_coumtype').val(),
+                    bytecounts = $.trim($('#txt_bytecounts').val()),
+                    defaultvalue = $.trim($('#txt_defaultvalue').val()),
+                    sort = $.trim($('#txt_sort').val());
+
+                if (dbname == "全部" || dbname.length < 1) {
+                    layer.tips('请选择数据库名。', '#sec_database');
+                    return;
+                }
+                if (tbname == "全部" || tbname.length < 1) {
+                    layer.tips('请选择表名。', '#sec_tables');
+                    return;
+                }
+                if (cloumname.length < 1) {
+                    layer.tips('请输入字段名。', '#txt_clonmname');
+                    return;
+                }
+                if (cloumtype.length < 1) {
+                    layer.tips('请选择字段类型。', '#sec_coumtype');
+                    return;
+                }
+                if (isNaN(bytecounts) || bytecounts.length < 1) {
+                    layer.tips('请输入占用字节数，必须是数字。', '#txt_bytecounts');
+                    return;
+                }
+                if (isNaN(sort) || sort.length < 1) {
+                    layer.tips('请输入排序序号，升序，必须是数字。', '#txt_sort');
+                    return;
+                }
+
+                layer.msg('数据提交中...', { icon: 16 });
+
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("Insert", "Dictionary")',
+                    data: {
+                        input: {
+                            DataBaseName: dbname,
+                            TableName: tbname,
+                            CloumName: cloumname,
+                            CloumSort: sort,
+                            IsIdentity: isidentity ? '√' : ' ',
+                            IsPrimaryKey: isprimarykey ? '√' : ' ',
+                            CloumType: cloumtype,
+                            ByteCounts: bytecounts,
+                            IsNullable: isnuable ? '√' : ' ',
+                            DefaultValue: defaultvalue,
+                            Description: cloumremark
+                        }
+                    },
+                    cache: false,
+                    dataType: 'JSON',
+                    success: function (data) {
+                        var isSuccess = (data.Code == "SUCCESS");
+                        //提示登录消息
+                        layer.msg(data.Description, { icon: (isSuccess ? 6 : 5) });
+                        if (isSuccess) {
+                            //关闭页面
+                            layer.closeAll();
+                            //parent.layer.reload();
+                        }
+                    },
+                    error: function () {
+                        layer.closeAll('loading');
+                        layer.msg('添加异常，请稍后再试。', { icon: 5 });
+                    }
+                });*@
+            });
+
+            $('#sec_database').bind('change', function () {
+                var dbName = $("#sec_database").val();
+                if (dbName == "全部") {
+                    $("#sec_tables").html('<option value="全部">全部</option>');
+                    return;
+                }
+                if (dbName != "全部" && dbName.length > 0) {
+                    layer.load();
+                    $.ajax({
+                        type: 'POST',
+                        url: '@Url.Action("Tables", "Dictionary")',
+                        data: { databaseName: dbName },
+                        cache: false,
+                        dataType: 'JSON',
+                        success: function (data) {
+
+                            var isSuccess = (data.Code == "SUCCESS");
+                            //提示登录消息
+                            //layer.msg(data.Description, { icon: (isSuccess ? 6 : 5) });
+
+                            if (isSuccess) {
+                                $("#sec_tables").html('<option value="全部">全部</option>');
+                                $.each(data.Data, function (i) {
+                                    var item = data.Data[i];
+                                    //console.log(item.TableName);
+                                    $("#sec_tables").append('<option value="' + item.TableName + '">' + item.TableName + '</option>');
+                                });
+                            }
+                            setTimeout(function () {
+                                layer.closeAll('loading');
+                            }, 400);
+                        },
+                        error: function () {
+                            layer.closeAll('loading');
+                            layer.msg('登录异常，请稍后再试。', { icon: 5 });
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
