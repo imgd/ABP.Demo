@@ -2753,3 +2753,335 @@ DEBUG 2016-04-08 16:37:09,667 [33   ] Abp.AutoMapper.AbpAutoMapperModule       -
 DEBUG 2016-04-08 16:37:09,699 [33   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IAccountInfoAppService' with service name 'app/accountInfo'.
 DEBUG 2016-04-08 16:37:09,700 [33   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IDictionaryAppService' with service name 'app/dictionary'.
 DEBUG 2016-04-08 16:37:09,700 [33   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Services.ITestAppService' with service name 'app/test'.
+DEBUG 2016-04-08 17:10:05,711 [97   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-08 17:10:08,452 [97   ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-04-08 17:10:08,455 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:10:08,458 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:10:08,458 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:10:08,458 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:10:08,458 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:10:08,458 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:10:08,459 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoApplicationModule, MultipleDbContextDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:10:08,459 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoCoreModule, MultipleDbContextDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:10:08,459 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoDataModule, MultipleDbContextDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:10:08,459 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.Web.MultipleDbContextDemoWebModule, MultipleDbContextDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:10:08,460 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoWebApiModule, MultipleDbContextDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:10:08,463 [97   ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-04-08 17:10:10,346 [97   ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-04-08 17:10:10,351 [97   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-08 17:10:10,351 [97   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-08 17:10:10,354 [97   ] Abp.Localization.LocalizationManager     - Initialized localization source: MultipleDbContextDemo
+DEBUG 2016-04-08 17:10:12,007 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-04-08 17:10:12,007 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.AccountInfoOutput
+DEBUG 2016-04-08 17:10:12,084 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.DictionaryInput
+DEBUG 2016-04-08 17:10:12,097 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.DictionaryTypeOutput
+DEBUG 2016-04-08 17:10:12,103 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.PersonInput
+DEBUG 2016-04-08 17:10:12,105 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.PersonOutput
+DEBUG 2016-04-08 17:10:12,141 [97   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IAccountInfoAppService' with service name 'app/accountInfo'.
+DEBUG 2016-04-08 17:10:12,142 [97   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IDictionaryAppService' with service name 'app/dictionary'.
+DEBUG 2016-04-08 17:10:12,142 [97   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Services.ITestAppService' with service name 'app/test'.
+WARN  2016-04-08 17:10:20,743 [96   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-04-08 17:10:20,769 [96   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2016-04-08 17:10:20,848 [90   ] lers.Filters.AbpExceptionFilterAttribute - Abp.AbpException: Only one complex type allowed as argument to a web api controller action. But GetDictionaryList contains more than one!
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.ActionScriptingHelper.GenerateBody(DynamicApiActionInfo actionInfo)
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryActionScriptGenerator.GenerateAjaxCallParameters()
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryActionScriptGenerator.GenerateMethod()
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryProxyGenerator.AppendMethod(StringBuilder script, DynamicApiControllerInfo controllerInfo, DynamicApiActionInfo methodInfo)
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryProxyGenerator.Generate()
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.ScriptProxyManager.GetAllScript(ProxyScriptType type)
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.AbpServiceProxiesController.GetAll(ProxyScriptType type)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.AbpException: Only one complex type allowed as argument to a web api controller action. But GetDictionaryList contains more than one!
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.ActionScriptingHelper.GenerateBody(DynamicApiActionInfo actionInfo)
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryActionScriptGenerator.GenerateAjaxCallParameters()
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryActionScriptGenerator.GenerateMethod()
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryProxyGenerator.AppendMethod(StringBuilder script, DynamicApiControllerInfo controllerInfo, DynamicApiActionInfo methodInfo)
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryProxyGenerator.Generate()
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.ScriptProxyManager.GetAllScript(ProxyScriptType type)
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.AbpServiceProxiesController.GetAll(ProxyScriptType type)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-04-08 17:24:39,541 [48   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-08 17:24:40,411 [48   ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-04-08 17:24:40,414 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:24:40,417 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:24:40,417 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:24:40,417 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:24:40,417 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:24:40,417 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:24:40,417 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoApplicationModule, MultipleDbContextDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:24:40,417 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoCoreModule, MultipleDbContextDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:24:40,418 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoDataModule, MultipleDbContextDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:24:40,418 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.Web.MultipleDbContextDemoWebModule, MultipleDbContextDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:24:40,418 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoWebApiModule, MultipleDbContextDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:24:40,421 [48   ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-04-08 17:24:41,322 [48   ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-04-08 17:24:41,326 [48   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-08 17:24:41,326 [48   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-08 17:24:41,329 [48   ] Abp.Localization.LocalizationManager     - Initialized localization source: MultipleDbContextDemo
+DEBUG 2016-04-08 17:24:42,018 [48   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-04-08 17:24:42,018 [48   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.AccountInfoOutput
+DEBUG 2016-04-08 17:24:42,086 [48   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.DictionaryInput
+DEBUG 2016-04-08 17:24:42,102 [48   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.DictionaryTypeOutput
+DEBUG 2016-04-08 17:24:42,107 [48   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.PersonInput
+DEBUG 2016-04-08 17:24:42,109 [48   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.PersonOutput
+DEBUG 2016-04-08 17:24:42,143 [48   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IAccountInfoAppService' with service name 'app/accountInfo'.
+DEBUG 2016-04-08 17:24:42,143 [48   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IDictionaryAppService' with service name 'app/dictionary'.
+DEBUG 2016-04-08 17:24:42,144 [48   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Services.ITestAppService' with service name 'app/test'.
+DEBUG 2016-04-08 17:34:02,646 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-08 17:34:03,730 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-04-08 17:34:03,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:34:03,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:34:03,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:34:03,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:34:03,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:34:03,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:34:03,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoApplicationModule, MultipleDbContextDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:34:03,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoCoreModule, MultipleDbContextDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:34:03,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoDataModule, MultipleDbContextDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:34:03,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.Web.MultipleDbContextDemoWebModule, MultipleDbContextDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:34:03,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoWebApiModule, MultipleDbContextDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:34:03,740 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-04-08 17:34:04,831 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-04-08 17:34:04,836 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-08 17:34:04,836 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-08 17:34:04,838 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MultipleDbContextDemo
+DEBUG 2016-04-08 17:34:05,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-04-08 17:34:05,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.AccountInfoOutput
+DEBUG 2016-04-08 17:34:05,682 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.DictionaryInput
+DEBUG 2016-04-08 17:34:05,700 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.DictionaryTypeOutput
+DEBUG 2016-04-08 17:34:05,703 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.PersonInput
+DEBUG 2016-04-08 17:34:05,704 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.PersonOutput
+DEBUG 2016-04-08 17:34:05,739 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IAccountInfoAppService' with service name 'app/accountInfo'.
+DEBUG 2016-04-08 17:34:05,740 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IDictionaryAppService' with service name 'app/dictionary'.
+DEBUG 2016-04-08 17:34:05,741 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Services.ITestAppService' with service name 'app/test'.
+DEBUG 2016-04-08 17:35:19,871 [48   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-08 17:35:22,430 [48   ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-04-08 17:35:22,435 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:35:22,438 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:35:22,438 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:35:22,438 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:35:22,438 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:35:22,438 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:35:22,439 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoApplicationModule, MultipleDbContextDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:35:22,439 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoCoreModule, MultipleDbContextDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:35:22,439 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoDataModule, MultipleDbContextDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:35:22,439 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.Web.MultipleDbContextDemoWebModule, MultipleDbContextDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:35:22,439 [48   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoWebApiModule, MultipleDbContextDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:35:22,442 [48   ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-04-08 17:35:36,096 [48   ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-04-08 17:35:36,101 [48   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-08 17:35:36,101 [48   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-08 17:35:36,103 [48   ] Abp.Localization.LocalizationManager     - Initialized localization source: MultipleDbContextDemo
+DEBUG 2016-04-08 17:35:37,537 [48   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-04-08 17:35:37,537 [48   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.AccountInfoOutput
+DEBUG 2016-04-08 17:35:37,614 [48   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.DictionaryInput
+DEBUG 2016-04-08 17:35:37,634 [48   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.DictionaryTypeOutput
+DEBUG 2016-04-08 17:35:37,637 [48   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.PersonInput
+DEBUG 2016-04-08 17:35:37,638 [48   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.PersonOutput
+DEBUG 2016-04-08 17:35:37,674 [48   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IAccountInfoAppService' with service name 'app/accountInfo'.
+DEBUG 2016-04-08 17:35:37,675 [48   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IDictionaryAppService' with service name 'app/dictionary'.
+DEBUG 2016-04-08 17:35:37,676 [48   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Services.ITestAppService' with service name 'app/test'.
+DEBUG 2016-04-08 17:37:21,795 [97   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-08 17:37:24,439 [97   ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-04-08 17:37:24,442 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:37:24,443 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:37:24,443 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:37:24,444 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:37:24,444 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:37:24,444 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:37:24,444 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoApplicationModule, MultipleDbContextDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:37:24,445 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoCoreModule, MultipleDbContextDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:37:24,445 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoDataModule, MultipleDbContextDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:37:24,445 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.Web.MultipleDbContextDemoWebModule, MultipleDbContextDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:37:24,445 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoWebApiModule, MultipleDbContextDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:37:24,452 [97   ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-04-08 17:37:39,655 [97   ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-04-08 17:37:39,657 [97   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-08 17:37:39,657 [97   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-08 17:37:39,658 [97   ] Abp.Localization.LocalizationManager     - Initialized localization source: MultipleDbContextDemo
+DEBUG 2016-04-08 17:37:41,290 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-04-08 17:37:41,290 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.AccountInfoOutput
+DEBUG 2016-04-08 17:37:41,334 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.DictionaryInput
+DEBUG 2016-04-08 17:37:41,350 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.DictionaryTypeOutput
+DEBUG 2016-04-08 17:37:41,354 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.PersonInput
+DEBUG 2016-04-08 17:37:41,356 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.PersonOutput
+DEBUG 2016-04-08 17:37:41,380 [97   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IAccountInfoAppService' with service name 'app/accountInfo'.
+DEBUG 2016-04-08 17:37:41,381 [97   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IDictionaryAppService' with service name 'app/dictionary'.
+DEBUG 2016-04-08 17:37:41,382 [97   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Services.ITestAppService' with service name 'app/test'.
+DEBUG 2016-04-08 17:43:35,419 [97   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-08 17:43:36,558 [97   ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-04-08 17:43:36,560 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:43:36,563 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:43:36,563 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:43:36,563 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:43:36,563 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:43:36,563 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.5.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:43:36,563 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoApplicationModule, MultipleDbContextDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:43:36,564 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoCoreModule, MultipleDbContextDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:43:36,564 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoDataModule, MultipleDbContextDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:43:36,564 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.Web.MultipleDbContextDemoWebModule, MultipleDbContextDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:43:36,564 [97   ] Abp.Modules.AbpModuleManager             - Loaded module: MultipleDbContextDemo.MultipleDbContextDemoWebApiModule, MultipleDbContextDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-08 17:43:36,568 [97   ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-04-08 17:43:37,740 [97   ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-04-08 17:43:37,745 [97   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-08 17:43:37,745 [97   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-08 17:43:37,746 [97   ] Abp.Localization.LocalizationManager     - Initialized localization source: MultipleDbContextDemo
+DEBUG 2016-04-08 17:43:38,606 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-04-08 17:43:38,606 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.AccountInfoOutput
+DEBUG 2016-04-08 17:43:38,673 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.DictionaryInput
+DEBUG 2016-04-08 17:43:38,691 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.DictionaryTypeOutput
+DEBUG 2016-04-08 17:43:38,694 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.PersonInput
+DEBUG 2016-04-08 17:43:38,700 [97   ] Abp.AutoMapper.AbpAutoMapperModule       - Demo.Application.PersonOutput
+DEBUG 2016-04-08 17:43:38,735 [97   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IAccountInfoAppService' with service name 'app/accountInfo'.
+DEBUG 2016-04-08 17:43:38,736 [97   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Application.IDictionaryAppService' with service name 'app/dictionary'.
+DEBUG 2016-04-08 17:43:38,736 [97   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultipleDbContextDemo.Services.ITestAppService' with service name 'app/test'.
+ERROR 2016-04-08 17:44:51,706 [53   ] lers.Filters.AbpExceptionFilterAttribute - Abp.AbpException: Only one complex type allowed as argument to a web api controller action. But GetDictionaryList contains more than one!
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.ActionScriptingHelper.GenerateBody(DynamicApiActionInfo actionInfo)
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryActionScriptGenerator.GenerateAjaxCallParameters()
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryActionScriptGenerator.GenerateMethod()
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryProxyGenerator.AppendMethod(StringBuilder script, DynamicApiControllerInfo controllerInfo, DynamicApiActionInfo methodInfo)
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryProxyGenerator.Generate()
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.ScriptProxyManager.GetAllScript(ProxyScriptType type)
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.AbpServiceProxiesController.GetAll(ProxyScriptType type)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+Abp.AbpException: Only one complex type allowed as argument to a web api controller action. But GetDictionaryList contains more than one!
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.ActionScriptingHelper.GenerateBody(DynamicApiActionInfo actionInfo)
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryActionScriptGenerator.GenerateAjaxCallParameters()
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryActionScriptGenerator.GenerateMethod()
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryProxyGenerator.AppendMethod(StringBuilder script, DynamicApiControllerInfo controllerInfo, DynamicApiActionInfo methodInfo)
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.jQuery.JQueryProxyGenerator.Generate()
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.ScriptProxyManager.GetAllScript(ProxyScriptType type)
+   在 Abp.WebApi.Controllers.Dynamic.Scripting.AbpServiceProxiesController.GetAll(ProxyScriptType type)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2016-04-08 17:44:51,824 [58   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-04-08 17:44:51,846 [58   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.

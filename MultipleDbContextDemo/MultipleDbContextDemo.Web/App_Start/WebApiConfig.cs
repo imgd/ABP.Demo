@@ -12,13 +12,16 @@ namespace MultipleDbContextDemo.Web.App_Start
         public static void Register(HttpConfiguration config)
         {
             //消息JSON返回
-            //重写了datetime 序列化json默认格式 (这里待测试)
+            //重写了datetime 序列化json默认格式 
             config.Services.Replace(typeof(IContentNegotiator), new JsonContentNegotiator());
 
             //全局身份验证
             config.Filters.Add(new GlobalActionFilterAttribute());
+            //JSONP服务端支持
+            config.Filters.Add(new JsonpFormatterAttribute());
 
             //Version版本支持
+            //待研究
             //config.Services.Replace(typeof(IHttpControllerSelector), new NamespaceHttpControllerSelector(config));
 
             //全局消息压缩
