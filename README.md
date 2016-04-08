@@ -3,7 +3,7 @@
 这是一个初始版本，后续会继续更新和完善，有问题 微博：[@大白2013](http://weibo.com/u/2239977692)  <br/>
 ABP的官方网站：http://www.aspnetboilerplate.com<br/>
 ABP在Github上的开源项目：https://github.com/aspnetboilerplate<br/>
-如果对您有帮助，请不要忘记点个赞哦 <br/>
+如果对您有帮助，请不要忘记点个赞哦 <br/><br/>
 
 
 这里部署的是精简版本，抛弃了授权，用户，权限集成模块，保留了审计日志<br/>
@@ -14,7 +14,7 @@ ABP在Github上的开源项目：https://github.com/aspnetboilerplate<br/>
 * 重写了返回格式，以及datetime类型序列化默认格式
 * 实现了支持命名空间路由和基于controller版本控制
 
-
+<br/>
 
 abp目前实现的功能有：<br/>
 服务器端：<br/>
