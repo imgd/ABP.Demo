@@ -1,0 +1,14 @@
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\obj\Debug\MultipleDbContextDemo.AppServiceTest.csprojResolveAssemblyReference.cache
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\bin\Debug\MultipleDbContextDemo.AppServiceTest.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\bin\Debug\MultipleDbContextDemo.AppServiceTest.pdb
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\bin\Debug\xunit.abstractions.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\bin\Debug\xunit.assert.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\bin\Debug\xunit.core.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\bin\Debug\xunit.runner.utility.desktop.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\bin\Debug\xunit.assert.pdb
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\bin\Debug\xunit.assert.xml
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\bin\Debug\xunit.core.pdb
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\bin\Debug\xunit.core.xml
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\obj\Debug\MultipleDbContextDemo.AppServiceTest.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.AppServiceTest\obj\Debug\MultipleDbContextDemo.AppServiceTest.pdb

@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using Abp.Domain.Repositories;
+using MultipleDbContextDemo.OutputCache;
+using MultipleDbContextDemo.WebApi.Extend;
 
 namespace MultipleDbContextDemo.Services
 {
+    //设置controller缓存
+    [CacheOutput(ServerTimeSpan = 100, ClientTimeSpan = 50)]
     public class TestAppService : MultipleDbContextDemoAppServiceBase, ITestAppService
     {
         private readonly IRepository<Person> _personRepository; //in the first db
@@ -16,6 +20,7 @@ namespace MultipleDbContextDemo.Services
             _courseRepository = courseRepository;
         }
 
+        [JsonpFormatter]
         public List<string> GetPeople()
         {
             var peopleNames = _personRepository.GetAllList().Select(p => p.PersonName).ToList();

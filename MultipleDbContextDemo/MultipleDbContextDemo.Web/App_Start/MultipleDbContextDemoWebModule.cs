@@ -6,6 +6,8 @@ using System.Web.Routing;
 using Abp.Localization;
 using Abp.Localization.Sources.Xml;
 using Abp.Modules;
+using MultipleDbContextDemo.Web.App_Start;
+using System.Web.Http;
 
 namespace MultipleDbContextDemo.Web
 {
@@ -36,6 +38,9 @@ namespace MultipleDbContextDemo.Web
             Configuration.Navigation.Providers.Add<MultipleDbContextDemoNavigationProvider>();
         }
 
+        /// <summary>
+        /// 在这里可以注册
+        /// </summary>
         public override void Initialize()
         {
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
@@ -43,6 +48,9 @@ namespace MultipleDbContextDemo.Web
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //webapi
+            GlobalConfiguration.Configure(WebApiConfig.Register);
+
         }
     }
 }

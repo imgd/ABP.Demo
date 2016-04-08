@@ -11,8 +11,9 @@ namespace MultipleDbContextDemo.Web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             //ASP.NET Web API Route Config
+            //支持命名空间
             routes.MapHttpRoute(
-                name: "DefaultApi",
+                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
                 );

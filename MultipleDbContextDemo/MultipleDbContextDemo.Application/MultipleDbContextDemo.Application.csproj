@@ -82,6 +82,10 @@
     </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Administrator\Desktop\DLL\System.Web.Http.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -122,6 +126,14 @@
     <ProjectReference Include="..\MultipleDbContextDemo.Core\MultipleDbContextDemo.Core.csproj">
       <Project>{17298ea0-af73-4f30-b6f1-2066100d7d74}</Project>
       <Name>MultipleDbContextDemo.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MultipleDbContextDemo.OutputCache\MultipleDbContextDemo.OutputCache.csproj">
+      <Project>{2755270e-c416-49e2-852b-98421845cdd2}</Project>
+      <Name>MultipleDbContextDemo.OutputCache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MultipleDbContextDemo.WebApi.Extend\MultipleDbContextDemo.WebApi.Extend.csproj">
+      <Project>{139b27a3-d47f-4ace-a319-b2f0a8b694af}</Project>
+      <Name>MultipleDbContextDemo.WebApi.Extend</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

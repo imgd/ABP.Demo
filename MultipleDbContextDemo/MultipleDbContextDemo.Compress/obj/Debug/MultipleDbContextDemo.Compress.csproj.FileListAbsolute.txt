@@ -1,0 +1,12 @@
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\MultipleDbContextDemo.Compress.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\MultipleDbContextDemo.Compress.pdb
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\System.Web.Http.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\System.Net.Http.Formatting.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\Newtonsoft.Json.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\System.Web.Http.xml
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\System.Net.Http.Formatting.xml
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Compress\obj\Debug\MultipleDbContextDemo.Compress.csprojResolveAssemblyReference.cache
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Compress\obj\Debug\MultipleDbContextDemo.Compress.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Compress\obj\Debug\MultipleDbContextDemo.Compress.pdb

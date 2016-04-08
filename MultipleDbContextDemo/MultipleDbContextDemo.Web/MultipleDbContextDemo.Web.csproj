@@ -137,9 +137,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <HintPath>C:\Users\Administrator\Desktop\DLL\System.Web.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -1109,7 +1109,9 @@
     <Content Include="Scripts\sweetalert\sweet-alert.min.js" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -1117,6 +1119,7 @@
     <Compile Include="App_Start\MultipleDbContextDemoNavigationProvider.cs" />
     <Compile Include="App_Start\MultipleDbContextDemoWebModule.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\DictionaryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MultipleDbContextDemoControllerBase.cs" />
@@ -1163,6 +1166,10 @@
       <Project>{63e485c4-91eb-4b5c-abef-a18a5066d61e}</Project>
       <Name>MultipleDbContextDemo.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MultipleDbContextDemo.Compress\MultipleDbContextDemo.Compress.csproj">
+      <Project>{209b61c1-7cec-415a-9b02-f73aae754ff3}</Project>
+      <Name>MultipleDbContextDemo.Compress</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MultipleDbContextDemo.Core\MultipleDbContextDemo.Core.csproj">
       <Project>{17298ea0-af73-4f30-b6f1-2066100d7d74}</Project>
       <Name>MultipleDbContextDemo.Core</Name>
@@ -1170,6 +1177,10 @@
     <ProjectReference Include="..\MultipleDbContextDemo.EntityFramework\MultipleDbContextDemo.EntityFramework.csproj">
       <Project>{3979f157-deb0-4878-ab1d-4cef6b5a1300}</Project>
       <Name>MultipleDbContextDemo.EntityFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MultipleDbContextDemo.WebApi.Extend\MultipleDbContextDemo.WebApi.Extend.csproj">
+      <Project>{139b27a3-d47f-4ace-a319-b2f0a8b694af}</Project>
+      <Name>MultipleDbContextDemo.WebApi.Extend</Name>
     </ProjectReference>
     <ProjectReference Include="..\MultipleDbContextDemo.WebApi\MultipleDbContextDemo.WebApi.csproj">
       <Project>{5eb52d3d-09fd-463a-b02a-8d9856bd3724}</Project>
