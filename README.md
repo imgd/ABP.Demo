@@ -13,7 +13,7 @@ ABP在Github上的开源项目：https://github.com/aspnetboilerplate<br/>
 * 全局Jsonp服务端支持
 * 重写了返回格式，以及datetime类型序列化默认格式
 * 实现了支持命名空间路由和基于controller版本控制
-* 客户端请求缓存
+* 客户端请求响应缓存
 
 <br/>
 
