@@ -15,6 +15,8 @@ namespace MultipleDbContextDemo.WebApi.Extend
     /// 支持命名空间的controller
     /// 支持controller的版本控制 
     /// 解决route特性路由冲突问题
+    /// **注意**
+    /// ***abp 动态webapi 需要重写AbpHttpControllerSelector 规则支持版本和命名空间 ，同时 需要修改默认的命名route AbpWebApiModule**
     /// </summary>
     public class NamespaceHttpControllerSelector : DefaultHttpControllerSelector, IHttpControllerSelector
     {
@@ -106,13 +108,13 @@ namespace MultipleDbContextDemo.WebApi.Extend
             string namespaceName = GetRouteVariable<string>(routeData, NamespaceKey);
             if (namespaceName == null)
             {
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                //throw new HttpResponseException(HttpStatusCode.NotFound);
             }
 
             string controllerName = GetRouteVariable<string>(routeData, ControllerKey);
             if (controllerName == null)
             {
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                //throw new HttpResponseException(HttpStatusCode.NotFound);
             }
 
 

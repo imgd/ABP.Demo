@@ -59,6 +59,7 @@ E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\Castle.Windsor.dll
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\MultipleDbContextDemo.Application.dll
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\MultipleDbContextDemo.Core.dll
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\MultipleDbContextDemo.OutputCache.dll
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\Newtonsoft.Json.dll
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\Nito.AsyncEx.Concurrent.dll
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\Nito.AsyncEx.dll
@@ -70,6 +71,7 @@ E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\MultipleDbContextDemo.Common.dll
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\MultipleDbContextDemo.Application.pdb
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\MultipleDbContextDemo.Core.pdb
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\MultipleDbContextDemo.OutputCache.pdb
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\Abp.xml
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\Abp.AutoMapper.xml
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\Abp.Web.xml
@@ -92,7 +94,3 @@ E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\obj\Debug\MultipleDbContextDemo.WebApi.csprojResolveAssemblyReference.cache
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\obj\Debug\MultipleDbContextDemo.WebApi.dll
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\obj\Debug\MultipleDbContextDemo.WebApi.pdb
-E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\MultipleDbContextDemo.OutputCache.dll
-E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\MultipleDbContextDemo.WebApi.Extend.dll
-E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\MultipleDbContextDemo.OutputCache.pdb
-E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.WebApi\bin\Debug\MultipleDbContextDemo.WebApi.Extend.pdb

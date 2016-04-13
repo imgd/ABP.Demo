@@ -14,6 +14,12 @@ using System.Web.Http.Filters;
 
 namespace MultipleDbContextDemo.OutputCache
 {
+    /// <summary>
+    /// 说明 abp动态webapi 路由规则是没有action 则不会触发ActionFilterAttribute 所以也就拿不到值
+    /// 解决：
+    /// 1.修改abp默认路由
+    /// 2.CacheOutputAttribute 取值采用 反射动态获取
+    /// </summary>
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
     public class CacheOutputAttribute : ActionFilterAttribute
     {
@@ -137,6 +143,9 @@ namespace MultipleDbContextDemo.OutputCache
 
         public override void OnActionExecuting(HttpActionContext actionContext)
         {
+
+            //var results = CacheOutputAttribute.GetCustomAttributes();
+
             if (actionContext == null) throw new ArgumentNullException("actionContext");
 
             if (!IsCachingAllowed(actionContext, AnonymousOnly)) return;

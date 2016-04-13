@@ -3,6 +3,8 @@ using MultipleDbContextDemo.WebApi.Extend;
 using System.Net.Http.Formatting;
 using System.Web.Http;
 using System.Web.Http.Dispatcher;
+using System.Web.Http.Filters;
+using  MultipleDbContextDemo.OutputCache;
 
 
 namespace MultipleDbContextDemo.Web.App_Start
@@ -19,6 +21,9 @@ namespace MultipleDbContextDemo.Web.App_Start
             config.Filters.Add(new GlobalActionFilterAttribute());
             //JSONP服务端支持
             config.Filters.Add(new JsonpFormatterAttribute());
+
+            //webapi 请求缓存配置
+            //config.Filters.Add(new CacheOutputAttribute());
 
             //Version版本支持
             //待研究

@@ -21,7 +21,7 @@ namespace MultipleDbContextDemo.Services
             _courseRepository = courseRepository;
         }
 
-        [JsonpFormatter]
+        
         public List<string> GetPeople()
         {
             var peopleNames = _personRepository.GetAllList().Select(p => p.PersonName).ToList();

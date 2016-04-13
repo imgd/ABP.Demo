@@ -1,7 +1,7 @@
-E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\obj\Debug\MultipleDbContextDemo.OutputCache.csprojResolveAssemblyReference.cache
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\bin\Debug\MultipleDbContextDemo.OutputCache.dll
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\bin\Debug\MultipleDbContextDemo.OutputCache.pdb
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\bin\Debug\System.Net.Http.Formatting.dll
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\bin\Debug\System.Web.Http.dll
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\obj\Debug\MultipleDbContextDemo.OutputCache.dll
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\obj\Debug\MultipleDbContextDemo.OutputCache.pdb
+E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\obj\Debug\MultipleDbContextDemo.OutputCache.csprojResolveAssemblyReference.cache

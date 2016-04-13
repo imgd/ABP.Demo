@@ -64,6 +64,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="V2\AutoInvalidateCacheOutputAttribute.cs" />
     <Compile Include="V2\BaseCacheAttribute.cs" />
+    <Compile Include="V2\CacheOutput2Attribute.cs" />
     <Compile Include="V2\CacheOutputAttribute.cs" />
     <Compile Include="V2\CacheOutputConfiguration.cs" />
     <Compile Include="V2\DefaultCacheKeyGenerator.cs" />
