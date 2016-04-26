@@ -10,12 +10,6 @@ namespace MultipleDbContextDemo.Migrations
             ContextKey = "MultipleDbContextDemo";
         }
 
-        protected override void Seed(MultipleDbContextDemo.EntityFramework.MyFirstDbContext context)
-        {
-            context.Persons.AddOrUpdate(p => p.PersonName,
-                new Person("Yunus"),
-                new Person("Emre")
-                );
-        }
+        
     }
 }

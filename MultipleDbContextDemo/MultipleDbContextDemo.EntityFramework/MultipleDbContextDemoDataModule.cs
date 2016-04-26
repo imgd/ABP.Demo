@@ -18,6 +18,7 @@ namespace MultipleDbContextDemo
         {
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
             Database.SetInitializer<MyFirstDbContext>(null);
+            Database.SetInitializer<MySecondDbContext>(null);
         }
     }
 }

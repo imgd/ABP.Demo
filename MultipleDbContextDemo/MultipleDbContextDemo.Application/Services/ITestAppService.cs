@@ -11,12 +11,9 @@ namespace MultipleDbContextDemo.Services
         [HttpGet]
         List<string> GetPeople();
 
-        [HttpGet]
-        List<string> GetCourses();
+        
 
-        [HttpGet]
-        List<string> GetPeopleAndCourses();
-
+        
         void CreatePerson(string name);
     }
 }

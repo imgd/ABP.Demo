@@ -9,16 +9,16 @@ using MultipleDbContextDemo.WebApi.Extend;
 namespace MultipleDbContextDemo.Services
 {
     //设置controller缓存
-    [CacheOutput(ServerTimeSpan = 100, ClientTimeSpan = 50)]
+    //[CacheOutput(ServerTimeSpan = 100, ClientTimeSpan = 50)]
     public class TestAppService : MultipleDbContextDemoAppServiceBase, ITestAppService
     {
         private readonly IRepository<Person> _personRepository; //in the first db
-        private readonly IRepository<Course> _courseRepository; //in the second db
+        //private readonly IRepository<Course> _courseRepository; //in the second db
 
-        public TestAppService(IRepository<Person> personRepository, IRepository<Course> courseRepository)
+        public TestAppService(IRepository<Person> personRepository)
         {
             _personRepository = personRepository;
-            _courseRepository = courseRepository;
+            //_courseRepository = courseRepository;
         }
 
         
@@ -27,26 +27,7 @@ namespace MultipleDbContextDemo.Services
             var peopleNames = _personRepository.GetAllList().Select(p => p.PersonName).ToList();
             return peopleNames;
         }
-
-        public List<string> GetCourses()
-        {
-            var courseNames =  _courseRepository.GetAllList().Select(p => p.CourseName).ToList();
-            return courseNames;
-        }
-
-        //a sample method uses both databases concurrently
-        public List<string> GetPeopleAndCourses()
-        {
-            List<string> names = new List<string>();
-
-            var peopleNames = _personRepository.GetAllList().Select(p => "Person: " + p.PersonName).ToList();
-            names.AddRange(peopleNames);
-
-            var courseNames = _courseRepository.GetAllList().Select(p => "Course: " + p.CourseName).ToList();
-            names.AddRange(courseNames);
-
-            return names;
-        }
+        
 
         public void CreatePerson(string name)
         {

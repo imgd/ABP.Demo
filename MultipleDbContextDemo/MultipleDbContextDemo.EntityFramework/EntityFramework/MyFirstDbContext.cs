@@ -10,13 +10,7 @@ namespace MultipleDbContextDemo.EntityFramework
         //TODO: Define an IDbSet for each Entity...
 
         //Example:
-        public virtual IDbSet<Person> Persons { get; set; }
-
         public virtual IDbSet<AuditLog> AuditLog { get; set; }
-
-        public virtual IDbSet<AccountInfo> Accounts { get; set; }
-
-        public virtual IDbSet<Dictionary> Dictionary { get; set; }
 
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.
