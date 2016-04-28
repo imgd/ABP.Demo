@@ -1,6 +1,6 @@
 ﻿# abp.webapi2.demo
 这是一个采用abp框架部署的webapi多数据项目<br/>
-这是一个初始版本，后续会继续更新和完善，有问题 微博：[@大白2013](http://weibo.com/u/2239977692)  <br/>
+这是一个初始版本，后续会继续更新和完善，有问题 微博：[@_imgd](http://weibo.com/u/2239977692)  <br/>
 ABP的官方网站：http://www.aspnetboilerplate.com<br/>
 ABP在Github上的开源项目：https://github.com/aspnetboilerplate<br/>
 如果对您有帮助，请不要忘记点个赞哦 <br/><br/>
