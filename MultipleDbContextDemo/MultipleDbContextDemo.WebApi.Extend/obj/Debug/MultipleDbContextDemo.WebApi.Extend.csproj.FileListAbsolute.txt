@@ -75,6 +75,16 @@ E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.E
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
-E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\obj\Debug\MultipleDbContextDemo.WebApi.Extend.csprojResolveAssemblyReference.cache
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\obj\Debug\MultipleDbContextDemo.WebApi.Extend.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\obj\Debug\MultipleDbContextDemo.WebApi.Extend.pdb
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\obj\Debug\MultipleDbContextDemo.WebApi.Extend.csprojResolveAssemblyReference.cache
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\MultipleDbContextDemo.Common.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\MultipleDbContextDemo.Inspector.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\MultipleDbContextDemo.Common.pdb
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\MultipleDbContextDemo.Inspector.pdb
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\xunit.runner.utility.desktop.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\xunit.abstractions.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\MultipleDbContextDemo.WebApi.Extend.dll.config
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\MultipleDbContextDemo.WebApi.Extend.dll.CodeAnalysisLog.xml
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.WebApi.Extend\bin\Debug\MultipleDbContextDemo.WebApi.Extend.dll.lastcodeanalysissucceeded

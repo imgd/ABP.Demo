@@ -2,7 +2,7 @@
 using Abp.Domain.Repositories;
 using AutoMapper;
 using Demo.Application;
-using Demo.EntityFramework.Common;
+using MultipleDbContextDemo.Common;
 using MultipleDbContextDemo.Core;
 
 namespace MultipleDbContextDemo.Application

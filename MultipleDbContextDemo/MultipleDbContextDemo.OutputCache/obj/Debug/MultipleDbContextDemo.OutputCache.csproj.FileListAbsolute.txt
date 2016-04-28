@@ -9,6 +9,11 @@ E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCa
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\bin\Debug\MultipleDbContextDemo.OutputCache.pdb
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\bin\Debug\System.Net.Http.Formatting.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\bin\Debug\System.Web.Http.dll
-E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\obj\Debug\MultipleDbContextDemo.OutputCache.csprojResolveAssemblyReference.cache
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\obj\Debug\MultipleDbContextDemo.OutputCache.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\obj\Debug\MultipleDbContextDemo.OutputCache.pdb
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\bin\Debug\xunit.runner.utility.desktop.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\bin\Debug\xunit.abstractions.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\obj\Debug\MultipleDbContextDemo.OutputCache.csprojResolveAssemblyReference.cache
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\bin\Debug\MultipleDbContextDemo.OutputCache.dll.CodeAnalysisLog.xml
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.OutputCache\bin\Debug\MultipleDbContextDemo.OutputCache.dll.lastcodeanalysissucceeded

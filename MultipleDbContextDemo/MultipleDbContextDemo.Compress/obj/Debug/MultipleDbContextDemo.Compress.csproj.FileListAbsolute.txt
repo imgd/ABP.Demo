@@ -10,3 +10,8 @@ E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Compress
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Compress\obj\Debug\MultipleDbContextDemo.Compress.csprojResolveAssemblyReference.cache
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Compress\obj\Debug\MultipleDbContextDemo.Compress.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Compress\obj\Debug\MultipleDbContextDemo.Compress.pdb
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\xunit.runner.utility.desktop.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\xunit.abstractions.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\MultipleDbContextDemo.Compress.dll.CodeAnalysisLog.xml
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Compress\bin\Debug\MultipleDbContextDemo.Compress.dll.lastcodeanalysissucceeded

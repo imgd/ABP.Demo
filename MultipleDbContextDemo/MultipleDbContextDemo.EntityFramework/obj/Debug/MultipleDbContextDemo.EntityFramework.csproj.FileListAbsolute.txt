@@ -112,3 +112,10 @@ E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.EntityFr
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.EntityFramework\bin\Debug\System.Collections.Immutable.xml
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.EntityFramework\bin\Debug\MultipleDbContextDemo.Common.pdb
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.EntityFramework\obj\Debug\MultipleDbContextDemo.EntityFramework.pdb
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.EntityFramework\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.EntityFramework\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.EntityFramework\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.EntityFramework\bin\Debug\xunit.runner.utility.desktop.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.EntityFramework\bin\Debug\xunit.abstractions.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.EntityFramework\bin\Debug\MultipleDbContextDemo.EntityFramework.dll.CodeAnalysisLog.xml
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.EntityFramework\bin\Debug\MultipleDbContextDemo.EntityFramework.dll.lastcodeanalysissucceeded

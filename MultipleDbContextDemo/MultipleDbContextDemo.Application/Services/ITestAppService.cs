@@ -8,10 +8,8 @@ namespace MultipleDbContextDemo.Services
     
     public interface ITestAppService : IApplicationService
     {
-        [HttpGet]
-        List<string> GetPeople();
-
         
+        List<string> GetPeople(int top);
 
         
         void CreatePerson(string name);

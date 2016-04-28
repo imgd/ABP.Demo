@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using Demo.EntityFramework.Common;
+using MultipleDbContextDemo.Common;
+
 
 namespace MultipleDbContextDemo.Application
 {
@@ -136,51 +137,51 @@ namespace MultipleDbContextDemo.Application
                         #region verify
                         case VerifyType.mobile:
                             base.ErrorMessage = "参数格式：手机";
-                            //isPass = value.ToString().MobileVerify();
+                            isPass = value.ToString().MobileVerify();
                             break;
                         case VerifyType.email:
                             base.ErrorMessage = "参数格式：邮箱";
-                            //isPass = value.ToString().EmailVerify();
+                            isPass = value.ToString().EmailVerify();
                             break;
                         case VerifyType.invicode:
                             base.ErrorMessage = "参数格式：6位数字验证码";
-                            //isPass = value.ToString().InviCodeVerify();
+                            isPass = value.ToString().InviCodeVerify();
                             break;
                         case VerifyType.password:
                             base.ErrorMessage = "参数格式：6-20位下划线数字字符格式密码";
-                            //isPass = value.ToString().PassWordVerify();
+                            isPass = value.ToString().PassWordVerify();
                             break;
                         case VerifyType.guid:
                             base.ErrorMessage = "参数格式：36位下划线数字字符guid";
-                            //isPass = value.ToString().GuidVerfy();
+                            isPass = value.ToString().GuidVerfy();
                             break;
                         case VerifyType.zipcode:
                             base.ErrorMessage = "参数格式：6位数字zip";
-                            //isPass = value.ToString().ZipCodeVerify();
+                            isPass = value.ToString().ZipCodeVerify();
                             break;
                         case VerifyType.couponscode:
                             base.ErrorMessage = "参数格式：18位数字优惠卷码";
-                            //isPass = value.ToString().CouponsCodeVerify();
+                            isPass = value.ToString().CouponsCodeVerify();
                             break;
                         case VerifyType.ip:
                             base.ErrorMessage = "参数格式：IP";
-                            //isPass = value.ToString().IpVerify();
+                            isPass = value.ToString().IpVerify();
                             break;
                         case VerifyType.ordernumber:
                             base.ErrorMessage = "参数格式：12数字订单编号";
-                            //isPass = value.ToString().OrderNumberVerify();
+                            isPass = value.ToString().OrderNumberVerify();
                             break;
                         case VerifyType.length:
                             base.ErrorMessage = string.Format("参数格式：字符长度 {0}-{1}", minLength, maxLength);
-                            //isPass = value.ToString().StrLengthVerify(minLength, maxLength);
+                            isPass = value.ToString().StrLengthVerify(minLength, maxLength);
                             break;
                         case VerifyType.intRange:
                             base.ErrorMessage = string.Format("参数格式：数字范围 {0}-{1}", minRange, maxRange);
-                            //isPass = value.ParseInt().IntRangeVerify((int)minRange, (int)maxRange);
+                            isPass = value.ParseInt().IntRangeVerify((int)minRange, (int)maxRange);
                             break;
                         case VerifyType.regexpress:
                             base.ErrorMessage = string.Format("参数格式：{0}", errorMessage == null ? "自定义错误" : errorMessage);
-                            //isPass = value.ToString().RegexVerify(pattern);
+                            isPass = value.ToString().RegexVerify(pattern);
                             break;
                         #endregion
                     }

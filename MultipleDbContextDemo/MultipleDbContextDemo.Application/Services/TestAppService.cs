@@ -22,7 +22,7 @@ namespace MultipleDbContextDemo.Services
         }
 
         
-        public List<string> GetPeople()
+        public List<string> GetPeople(int top)
         {
             var peopleNames = _personRepository.GetAllList().Select(p => p.PersonName).ToList();
             return peopleNames;

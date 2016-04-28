@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using Abp.Json;
-using Demo.EntityFramework.Common;
 using MultipleDbContextDemo.Application;
+using MultipleDbContextDemo.Common;
 using MultipleDbContextDemo.Services;
 
 namespace MultipleDbContextDemo.Web.Controllers
@@ -19,7 +19,7 @@ namespace MultipleDbContextDemo.Web.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.d1 = _tappservice.GetPeople();
+            ViewBag.d1 = _tappservice.GetPeople(5);
             return View();
             //if (Session.IsNull() || Session["userid"].IsNull())
             //{

@@ -200,7 +200,6 @@ E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.Core.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.EntityFramework.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.OutputCache.dll
-E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.WebApi.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.WebApi.Extend.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\Newtonsoft.Json.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\Nito.AsyncEx.Concurrent.dll
@@ -226,7 +225,6 @@ E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.EntityFramework.pdb
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.OutputCache.pdb
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.WebApi.Extend.pdb
-E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.WebApi.pdb
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\Abp.xml
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\Abp.AutoMapper.xml
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\Abp.Web.xml
@@ -266,3 +264,15 @@ E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\obj\Debug\MultipleDbContextDemo.Web.csprojResolveAssemblyReference.cache
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\obj\Debug\MultipleDbContextDemo.Web.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\obj\Debug\MultipleDbContextDemo.Web.pdb
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\zh-Hans\EntityFramework.resources.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.Inspector.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.Inspector.pdb
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\xunit.runner.visualstudio.testadapter.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\xunit.runner.utility.desktop.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\xunit.abstractions.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.Web.dll.CodeAnalysisLog.xml
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Web\bin\MultipleDbContextDemo.Web.dll.lastcodeanalysissucceeded

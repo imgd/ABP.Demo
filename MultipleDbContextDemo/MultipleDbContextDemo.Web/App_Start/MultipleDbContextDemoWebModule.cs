@@ -6,12 +6,11 @@ using System.Web.Routing;
 using Abp.Localization;
 using Abp.Localization.Sources.Xml;
 using Abp.Modules;
-using MultipleDbContextDemo.Web.App_Start;
-using System.Web.Http;
+
 
 namespace MultipleDbContextDemo.Web
 {
-    [DependsOn(typeof(MultipleDbContextDemoDataModule), typeof(MultipleDbContextDemoApplicationModule), typeof(MultipleDbContextDemoWebApiModule))]
+    [DependsOn(typeof(MultipleDbContextDemoDataModule), typeof(MultipleDbContextDemoApplicationModule))]
     public class MultipleDbContextDemoWebModule : AbpModule
     {
         public override void PreInitialize()
@@ -48,8 +47,6 @@ namespace MultipleDbContextDemo.Web
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            //webapi
-            GlobalConfiguration.Configure(WebApiConfig.Register);
 
         }
     }

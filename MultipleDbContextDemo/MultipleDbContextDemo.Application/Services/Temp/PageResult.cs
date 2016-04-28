@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Demo.EntityFramework.Common;
-using Abp.Application.Services.Dto;
-using Abp.Runtime.Validation;
+using MultipleDbContextDemo.Common;
 
 namespace MultipleDbContextDemo.Application
 {

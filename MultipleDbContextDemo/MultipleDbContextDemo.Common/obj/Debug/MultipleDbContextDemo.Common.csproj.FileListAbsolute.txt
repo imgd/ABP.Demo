@@ -10,6 +10,11 @@ E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Common\
 E:\工作\github\wk\ABP.Demo\MultipleDbContextDemo\MultipleDbContextDemo.Common\obj\Debug\MultipleDbContextDemo.Common.csprojResolveAssemblyReference.cache
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\bin\Debug\MultipleDbContextDemo.Common.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\bin\Debug\MultipleDbContextDemo.Common.pdb
-E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\obj\Debug\MultipleDbContextDemo.Common.csprojResolveAssemblyReference.cache
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\obj\Debug\MultipleDbContextDemo.Common.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\obj\Debug\MultipleDbContextDemo.Common.pdb
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\obj\Debug\MultipleDbContextDemo.Common.csprojResolveAssemblyReference.cache
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\bin\Debug\xunit.runner.utility.desktop.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\bin\Debug\xunit.abstractions.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\bin\Debug\MultipleDbContextDemo.Common.dll.CodeAnalysisLog.xml
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Common\bin\Debug\MultipleDbContextDemo.Common.dll.lastcodeanalysissucceeded

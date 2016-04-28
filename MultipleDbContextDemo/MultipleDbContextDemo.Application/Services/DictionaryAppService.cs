@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
 using Demo.Application;
-using Demo.EntityFramework.Common;
+using MultipleDbContextDemo.Common;
 using MultipleDbContextDemo.Core;
 
 

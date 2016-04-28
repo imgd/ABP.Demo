@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using Demo.EntityFramework.Common;
+using MultipleDbContextDemo.Common;
 
 
 namespace MultipleDbContextDemo.Application

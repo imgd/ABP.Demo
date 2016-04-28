@@ -4,7 +4,7 @@ namespace MultipleDbContextDemo.Migrations
     using System.Collections.Generic;
     using System.Data.Entity.Infrastructure.Annotations;
     using System.Data.Entity.Migrations;
-    
+
     public partial class initialcreate1 : DbMigration
     {
         public override void Up()
@@ -37,9 +37,23 @@ namespace MultipleDbContextDemo.Migrations
                     { "DynamicFilter_AuditLog_MayHaveTenant", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
                 })
                 .PrimaryKey(t => t.Id);
-            
+
+            CreateTable(
+                "dbo.__Log4NetLog",
+                c => new
+                {
+                    Id = c.Int(nullable: false, identity: true),
+                    Date = c.DateTime(nullable: false),
+                    Thread = c.String(maxLength: 255, nullable: false),
+                    Level = c.String(maxLength: 50, nullable: false),
+                    Logger = c.String(maxLength: 50, nullable: false),
+                    Message = c.String(maxLength: 4000, nullable: false),
+                    Exception = c.String(maxLength: 2000)
+                })
+                .PrimaryKey(t => t.Id);
+
         }
-        
+
         public override void Down()
         {
             DropTable("dbo._AuditLog",
@@ -47,7 +61,9 @@ namespace MultipleDbContextDemo.Migrations
                 {
                     { "DynamicFilter_AuditLog_MayHaveTenant", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
                 });
-            
+
+            DropTable("dbo.__Log4NetLog");
+
         }
     }
 }

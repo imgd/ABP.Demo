@@ -77,3 +77,8 @@ E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Core\bin
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Core\obj\Debug\MultipleDbContextDemo.Core.csprojResolveAssemblyReference.cache
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Core\obj\Debug\MultipleDbContextDemo.Core.dll
 E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Core\obj\Debug\MultipleDbContextDemo.Core.pdb
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Core\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Core\bin\Debug\xunit.runner.utility.desktop.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Core\bin\Debug\xunit.abstractions.dll
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Core\bin\Debug\MultipleDbContextDemo.Core.dll.CodeAnalysisLog.xml
+E:\工作\1\ABP.Demo-master\MultipleDbContextDemo\MultipleDbContextDemo.Core\bin\Debug\MultipleDbContextDemo.Core.dll.lastcodeanalysissucceeded
