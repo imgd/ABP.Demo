@@ -1,5 +1,5 @@
-﻿# abp.demo
-这是一个采用abp框架部署的多数据项目<br/>
+﻿# abp.webapi2.demo
+这是一个采用abp框架部署的webapi多数据项目<br/>
 这是一个初始版本，后续会继续更新和完善，有问题 微博：[@大白2013](http://weibo.com/u/2239977692)  <br/>
 ABP的官方网站：http://www.aspnetboilerplate.com<br/>
 ABP在Github上的开源项目：https://github.com/aspnetboilerplate<br/>
@@ -14,7 +14,9 @@ ABP在Github上的开源项目：https://github.com/aspnetboilerplate<br/>
 * 重写了返回格式，以及datetime类型序列化默认格式
 * 实现了支持命名空间路由和基于controller版本控制
 * 客户端请求响应缓存
-
+* 自定义错误消息输出
+* 部署了log4net日志到数据库同审计日志<br/>
+具体的webapi使用详细：<a href="https://github.com/imgd/WebApi2" target="_blank">https://github.com/imgd/WebApi2</a>
 <br/>
 
 abp目前实现的功能有：<br/>
